@@ -14,9 +14,10 @@ The suites in `tests/` cover:
   write outside the accessible RAM range, for every access size. The RAM range
   is read from `bdinfo`, so the tests do not hard-code addresses.
 
-The image under test can be a Toradex Easy Installer image (with a
-`recovery/` directory) or a package built by the flashing tool from
-meta-toradex-flasher (with a `flash/` directory).
+The image under test can be a Toradex Easy Installer image (with a `recovery/`
+directory) or a package built by the flashing tool from
+[meta-toradex-flasher](https://github.com/torizon/meta-toradex-flasher) (with a
+`flash/` directory).
 
 ## Usage
 
